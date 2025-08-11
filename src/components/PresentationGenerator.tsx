@@ -352,18 +352,6 @@ export function PresentationGenerator() {
             </CardContent>
           </Card>
         </div>
-
-        {/* Security Note */}
-        <div className="mt-12 max-w-2xl mx-auto">
-          <Card className="border-orange-light bg-orange-lighter">
-            <CardContent className="p-4">
-              <p className="text-sm text-orange-dark">
-                <strong>Note:</strong> This demo uses a hardcoded API key for demonstration purposes. 
-                In production, always store API keys securely on the server side.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
       </div>
     </div>
   );
